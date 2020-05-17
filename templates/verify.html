@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title>Verification</title>
+<link rel="stylesheet" href="static/css/login.css">
+{% endblock %}
+
+{% block body %}
+<div id="intro" class="view">
+
+    <div class="mask rgba-black-light">
+
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+            <div class="row d-flex justify-content-center text-center">
+
+                <div class="col-md-10">
+                    <div class="loginbox">
+                        <h1>Verification</h1><br>
+                        {% include './includes/messages.html' %}
+                        <p>Click the verify button<p>
+                                <form method="POST">
+                                    <button class="btn btn-dark" type="submit">Verify</button>
+                                </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    {% endblock %}

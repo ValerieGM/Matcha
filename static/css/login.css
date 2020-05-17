@@ -1,0 +1,49 @@
+html, body, header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/flamerose.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loginbox{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #B43757;
+	transform: translate(-50%, -50%);
+}
+
+.loginbox h1{
+	float: none;
+	font-size: 40px;
+	border-bottom: 4px solid #800000;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	color: #800000;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #800000;
+}
+
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: silver;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
